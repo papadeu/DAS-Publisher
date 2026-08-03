@@ -23,19 +23,18 @@ Prerequisities for using:
 Optionally:
    1)  Existing text channel web-hook:
      A)  example Discord: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+     
      B)  example Slack: https://docs.slack.dev/messaging/sending-messages-using-incoming-webhooks/
 
 
-For deploying as user (not developer) please download the existing 2 files to your local windows folder and start the executable:
-TwsPublisher.exe and TwsPublisher.dll.config (which is a text file)
+For deploying as user (not developer) please download the existing 2 files (Executable.zip) to your local windows folder and start the executable:
+DasPublisher.exe and DasPublisher.dll.config (which is a text file)
 
-Published source code is only for transparency purpose, to show that no other actions except read only account's position monitoring and WebHook request to Discord are made with this software. 
+Published source code is only for transparency purpose, to show that no other actions except read only account's position monitoring and http send request to given WebHook URL are made with this software. 
 
 
-TWS must be configured for using API:
+DAS Trader must be configured for using API:
 
-   1)  In TWS go to “Global Configuration”, API, settings and check "enable activex and socket clients" and also check "read-only API"
-
-   2)  Note the Socket port configured. I.e 7496 and take this value into corresponding TwsPublisher.exe field
+   1)  In DAS go to “Setup/OtherConfiguration/Configuration/CMDAPI Settings”, set the CMDAPI port number (i.e. 7001) and take it into corresponding DasPublisher's field.
 
 TWS Paper-Trading is also supported.
