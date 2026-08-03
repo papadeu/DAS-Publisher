@@ -22,10 +22,7 @@ Prerequisities for using:
 
 Optionally:
    1)  Existing text channel web-hook:
-     A)  example Discord: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
-     
-     B)  example Slack: https://docs.slack.dev/messaging/sending-messages-using-incoming-webhooks/
-
+     A)  example Slack: https://docs.slack.dev/messaging/sending-messages-using-incoming-webhooks/
 
 For deploying as user (not developer) please download the existing 2 files (Executable.zip) to your local windows folder and start the executable:
 DasPublisher.exe and DasPublisher.dll.config (which is a text file)
@@ -37,4 +34,4 @@ DAS Trader must be configured for using API:
 
    1)  In DAS go to “Setup/OtherConfiguration/Configuration/CMDAPI Settings”, set the CMDAPI port number (i.e. 7001) and take it into corresponding DasPublisher's field.
 
-TWS Paper-Trading is also supported.
+DAS DEMO-Account is also supported.
