@@ -35,3 +35,6 @@ DAS Trader must be configured for using API:
    1)  In DAS go to “Setup/OtherConfiguration/Configuration/CMDAPI Settings”, set the CMDAPI port number (i.e. 7001) and take it into corresponding DasPublisher's field.
 
 DAS DEMO-Account is also supported.
+
+<img width="743" height="423" alt="grafik" src="https://github.com/user-attachments/assets/a14fd571-599a-4f32-bb00-268b97391734" />
+
