@@ -1,2 +1,41 @@
 # DAS-Publisher
 DAS Trader Publisher
+
+This application monitors given DAS Trader account in real time and sends a message to main app window and/or to given text channel (via web-hook) when trade execution occured. All web-hook channels are supported, i.e. Discord, Slack etc.
+
+A local instance of DAS Trader must run on the same machine where this application is used.
+
+It doesn't influence DAS Trader performance in any way, due to usage of "DAS CMD API".
+
+This application uses DAS API in 'read only' mode however user credentuials are required to monitor account's positions.
+User password is stored locally in encrypted way.
+
+All communication between Publisher and DAS occurs locally.
+
+Publisher does not execute any transations on connected account ('read only').
+
+The entire C# .NET8 source code is published here for transparency purpose. You can compile the source code by yourself using MS VisualStudio or you can use already compiled executable file which is inside Executable.zip. There are 2 files: an exe and a config file to store the publishing settings inside it. 
+
+Prerequisities for using:
+
+   1)  .NET8 Framework installed on local machine, please take ".NET Desktop Runtime" option: download from here: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+
+Optionally:
+   1)  Existing text channel web-hook:
+     A)  example Discord: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+     B)  example Slack: https://docs.slack.dev/messaging/sending-messages-using-incoming-webhooks/
+
+
+For deploying as user (not developer) please download the existing 2 files to your local windows folder and start the executable:
+TwsPublisher.exe and TwsPublisher.dll.config (which is a text file)
+
+Published source code is only for transparency purpose, to show that no other actions except read only account's position monitoring and WebHook request to Discord are made with this software. 
+
+
+TWS must be configured for using API:
+
+   1)  In TWS go to “Global Configuration”, API, settings and check "enable activex and socket clients" and also check "read-only API"
+
+   2)  Note the Socket port configured. I.e 7496 and take this value into corresponding TwsPublisher.exe field
+
+TWS Paper-Trading is also supported.
