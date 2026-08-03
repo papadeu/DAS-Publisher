@@ -1,5 +1,4 @@
 # DAS-Publisher
-DAS Trader Publisher
 
 This application monitors given DAS Trader account in real time and sends a message to main app window and/or to given text channel (via web-hook) when trade execution occured. All web-hook channels are supported, i.e. Discord, Slack etc.
 
