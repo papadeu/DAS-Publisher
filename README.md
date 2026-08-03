@@ -36,5 +36,7 @@ DAS Trader must be configured for using API:
 
 DAS DEMO-Account is also supported.
 
+<img width="1525" height="576" alt="grafik" src="https://github.com/user-attachments/assets/be5c0c32-023b-45e3-90b8-49a5ea49ebd9" />
+
 <img width="743" height="423" alt="grafik" src="https://github.com/user-attachments/assets/a14fd571-599a-4f32-bb00-268b97391734" />
 
