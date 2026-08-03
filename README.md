@@ -6,8 +6,8 @@ A local instance of DAS Trader must run on the same machine where this applicati
 
 It doesn't influence DAS Trader performance in any way, due to usage of "DAS CMD API".
 
-This application uses DAS API in 'read only' mode however user credentuials are required to monitor account's positions.
-User password is stored locally in encrypted way.
+This application uses DAS API in 'read only' mode however user credentials are required to monitor account's positions.
+User password is stored locally in encrypted way. DAS API 'read only' is free of charge and included in basic DAS version..
 
 All communication between Publisher and DAS occurs locally.
 
