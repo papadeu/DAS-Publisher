@@ -39,3 +39,6 @@ DAS DEMO-Account is also supported.
 
 <img width="743" height="423" alt="grafik" src="https://github.com/user-attachments/assets/a14fd571-599a-4f32-bb00-268b97391734" />
 
+<img width="666" height="252" alt="grafik" src="https://github.com/user-attachments/assets/69dc6132-0d22-4280-823e-e83f34d8bba2" />
+
+
